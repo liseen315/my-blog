@@ -5,6 +5,8 @@ theme = "hugo-nuo"
 enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
+baseURL = "https://abianji.com/"
+buildDrafts = true
 
 # Disqus Username
 disqusShortname = "disqus_shortname"
