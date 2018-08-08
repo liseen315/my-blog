@@ -1,10 +1,10 @@
 01_link:
   title: scrd's blog
   link: http://w3ctalk.com/
-  avatar: http://7xp267.com1.z0.glb.clouddn.com/scard.jpeg
+  avatar: https://res.cloudinary.com/dnakxpzhj/image/upload/v1533732097/scard.jpg
   description: A FE developer
 02_link:
   title: faaaar's blog
   link: https://faaaar.github.io/
-  avatar: http://7xp267.com1.z0.glb.clouddn.com/faaaaa.png
+  avatar: https://res.cloudinary.com/dnakxpzhj/image/upload/v1533732068/faaaaa.png
   description: A full-stack developer
