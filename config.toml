@@ -1,6 +1,6 @@
 baseURL = "http://localhost:1313"
 languageCode = "en"
-title = "Hugo Blog"
+title = "阿比安吉"
 theme = "hugo-nuo"
 enableRobotsTXT = true
 PygmentsCodeFences = true
@@ -10,27 +10,21 @@ canonifyurls = true
 disqusShortname = "disqus_shortname"
 
 # Google Analytics UA number
-googleAnalytics = "UA-XXXXXXXX-X"
+# googleAnalytics = "UA-123564234-1"
 
 # Copyright of your post
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
-  name = "Home"
+  name = "首页"
   weight = 10
   identifier = "home"
   url = "/"
 
 [[menu.main]]
-  name = "Works"
+  name = "标签"
   weight = 20
-  identifier = "works"
-  url = "https://github.com/laozhu"
-
-[[menu.main]]
-  name = "Tags"
-  weight = 30
   identifier = "tags"
   url = "/tags/"
 
@@ -38,18 +32,18 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 [params]
   author = "Ritchie Zhu"
   avatar = "/img/avatar.jpg"
-  seotitle = "Hugo Blog (SEO Version)"
-  subtitle = "~ Keep It Simple & Stupid ~"
-  description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
+  seotitle = "阿比安吉"
+  subtitle = "饱了犯困 饿了发呆"
+  description = "note for life and study"
   paginate = 10
 
   # Choose your social networks
-  email = "name@domain.com"
-  github = "github_username"
-  twitter = "twitter_username"
-  linkedin = "linkedin_username"
-  weibo = "weibo_username"
-  wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
+  email = "liusong850315@gmail.com"
+  github = "liseen315"
+  # twitter = "twitter_username"
+  # linkedin = "linkedin_username"
+  # weibo = "weibo_username"
+  # wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
   # facebook = "facebook_username"
   # google = "googlplus_id_number"
   # instagram = "instagram_username"
@@ -61,7 +55,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # dribbble = "dribbble_username"
   # behance = "behance_username"
   # jsfiddle = "jsfiddle_username"
-  # codepen = "codepen_username"
+   codepen = "liseen"
   # zhihu = "zhihu_username"
   # douban = "douban_username"
   # bilibili = "bilibili_id_number"
@@ -96,4 +90,4 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # baiduTongji = "e21dc1e8a592188271b615159dc88af7"
 
   # ICP Number (China Only)
-  # ICP = "苏ICP备16005986号-2"
+  # ICP = "xxx"
