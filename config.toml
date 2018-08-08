@@ -1,11 +1,10 @@
-baseURL = "http://localhost:1313"
+baseURL = "https://abianji.com/"
 languageCode = "en"
 title = "阿比安吉"
 theme = "hugo-nuo"
 enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
-baseURL = "https://abianji.com/"
 buildDrafts = true
 
 # Disqus Username
