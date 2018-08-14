@@ -1,10 +1,14 @@
 ---
 title: "Go语言实战 (01) Go介绍"
 author: "liseen"
+cover: "http://7xp267.com1.z0.glb.clouddn.com/golang.jpg"
 tags: ["golang"]
 date: 2018-08-14T15:42:42+08:00
 draft: true
 ---
+Go语言是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语...
+
+<!--more-->
 
 ### 介绍
 
