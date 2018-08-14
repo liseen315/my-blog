@@ -1,7 +1,7 @@
 ---
 title: "Go语言实战 (01) Go介绍"
 author: "liseen"
-cover: "http://7xp267.com1.z0.glb.clouddn.com/golang.jpg"
+cover: "https://res.cloudinary.com/dnakxpzhj/image/upload/v1534252040/golang.jpg"
 tags: ["golang"]
 date: 2018-08-14T15:42:42+08:00
 draft: true
