@@ -1,12 +1,12 @@
 ---
-title: "Go语言实战 (01) Go介绍"
+title: "Go学习笔记 (01) Go介绍"
 author: "liseen"
 cover: "https://res.cloudinary.com/dnakxpzhj/image/upload/v1534252040/golang.jpg"
 tags: ["golang"]
 date: 2018-08-14T15:42:42+08:00
 draft: true
 ---
-Go语言是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语...
+Go语言是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言
 
 <!--more-->
 
