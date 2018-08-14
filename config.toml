@@ -8,7 +8,7 @@ canonifyurls = true
 buildDrafts = true
 
 # Disqus Username
-disqusShortname = "disqus_shortname"
+disqusShortname = "abianji"
 
 # Google Analytics UA number
 # googleAnalytics = "UA-123564234-1"
