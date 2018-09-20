@@ -1,5 +1,5 @@
 ---
-title: "Blockchain Eos 介绍"
+title: "EOS 介绍"
 author: "liseen"
 cover: "https://res.cloudinary.com/dnakxpzhj/image/upload/v1537413870/eos.jpg"
 tags: ["blockchain", "eos"]
