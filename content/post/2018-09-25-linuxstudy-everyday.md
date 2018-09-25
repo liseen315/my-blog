@@ -1,5 +1,5 @@
 ---
-title: "2018 09 25 Linuxstudy Everyday"
+title: "每天学点Linux"
 author: "liseen"
 cover: "https://res.cloudinary.com/dnakxpzhj/image/upload/v1537856707/linux.jpg"
 tags: ["linux"]
