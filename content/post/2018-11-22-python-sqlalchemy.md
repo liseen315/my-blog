@@ -1,7 +1,7 @@
 ---
 title: "2018 11 22 Python Sqlalchemy(01)"
 author: "Liseen"
-cover: "/img/cover.jpg"
+cover: "https://res.cloudinary.com/dnakxpzhj/image/upload/v1542793950/sql.jpg"
 tags: ["Python", "sqlalchemy"]
 date: 2018-11-22T14:52:53+08:00
 draft: true
