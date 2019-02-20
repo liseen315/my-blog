@@ -1,7 +1,7 @@
 ---
 title: "Go学习笔记 (02) Go基础环境搭建"
 author: "liseen"
-cover: "https://res.cloudinary.com/dnakxpzhj/image/upload/v1534252040/golang.jpg"
+cover: "https://res.cloudinary.com/dnakxpzhj/image/upload/v1550632951/blog/golang.jpg"
 tags: ["golang"]
 date: 2018-08-14T22:02:12+08:00
 draft: true

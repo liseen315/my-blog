@@ -1,7 +1,7 @@
 ---
 title: "Python Sqlalchemy(02)"
 author: "Liseen"
-cover: "https://res.cloudinary.com/dnakxpzhj/image/upload/v1542793950/sql.jpg"
+cover: "https://res.cloudinary.com/dnakxpzhj/image/upload/v1550633142/blog/sql.jpg"
 tags: ["Python", "sqlalchemy"]
 date: 2018-11-22T16:26:01+08:00
 draft: true

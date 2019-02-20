@@ -1,7 +1,7 @@
 ---
 title: "每天学点Linux"
 author: "liseen"
-cover: "https://res.cloudinary.com/dnakxpzhj/image/upload/v1537856707/linux.jpg"
+cover: "https://res.cloudinary.com/dnakxpzhj/image/upload/v1550633058/blog/linux.jpg"
 tags: ["linux"]
 date: 2018-09-25T14:20:38+08:00
 draft: true
