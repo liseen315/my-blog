@@ -1,3 +1,6 @@
 [submodule "public"]
 	path = public
 	url = git@github.com:liseen315/liseen315.github.io.git
+[submodule "themes/bilberry-hugo-theme"]
+	path = themes/bilberry-hugo-theme
+	url = https://github.com/liseen315/bilberry-hugo-theme

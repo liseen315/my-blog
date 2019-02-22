@@ -1,7 +1,7 @@
 baseURL = "https://abianji.com/"
 languageCode = "en"
 title = "阿比安吉"
-theme = "hugo-nuo"
+theme = "bilberry-hugo-theme"
 enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
