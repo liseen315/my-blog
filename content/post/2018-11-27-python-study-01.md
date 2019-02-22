@@ -1,7 +1,7 @@
 ---
 title: "Python Study 创建虚拟环境"
 author: "Liseen"
-cover: "https://res.cloudinary.com/dnakxpzhj/image/upload/v1550633334/blog/python.jpg"
+cover: "https://res.cloudinary.com/dnakxpzhj/image/upload/v1550830058/blog/pylogo.jpg"
 tags: ["Python"]
 date: 2018-11-27T13:37:39+08:00
 draft: true
