@@ -1,94 +1,151 @@
-baseURL = "https://abianji.com/"
-languageCode = "en"
 title = "阿比安吉"
+# Add an trailing slash to ensure that all fonts render correctly.
+baseURL = "https://abianji.com/"
 theme = "bilberry-hugo-theme"
+
 enableRobotsTXT = true
-PygmentsCodeFences = true
-canonifyurls = true
-buildDrafts = true
 
-# Disqus Username
-disqusShortname = "abianji"
+# Change to one of your content languages definded at the end.
+DefaultContentLanguage = "en"
 
-# Google Analytics UA number
-# googleAnalytics = "UA-123564234-1"
+# Enable / Disable Google Analytics statistics for your site
+googleAnalytics = "UA-123564234-1"
 
-# Copyright of your post
-copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
+# Enable / Disable comments on the articles via Disqus.
+disqusShortname = ""
 
-# Initial site menu, you can extend menu with content.
-[[menu.main]]
-  name = "首页"
-  weight = 10
-  identifier = "home"
-  url = "/"
+# Enable / Disable open link with a new tab.
+[blackfriday]
+  hrefTargetBlank = false
 
-[[menu.main]]
-  name = "标签"
-  weight = 20
-  identifier = "tags"
-  url = "/tags/"
-
-# Add your own params here
 [params]
-  author = "Ritchie Zhu"
-  avatar = "/img/avatar.jpg"
-  seotitle = "阿比安吉"
-  subtitle = "生活本来就是一点一滴"
-  description = "note for life and study"
-  paginate = 10
+  # Favicon for the browser's favorites and tabs
+  favicon = "favicon.ico" # set a favicon icon
 
-  # Choose your social networks
-  email = "liusong850315@gmail.com"
-  github = "liseen315"
-  # twitter = "twitter_username"
-  # linkedin = "linkedin_username"
-  # weibo = "weibo_username"
-  # wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
-  # facebook = "facebook_username"
-  # google = "googlplus_id_number"
-  # instagram = "instagram_username"
-  # youtube = "youtube_username"
-  # vimeo = "vimeo_username"
-  # medium = "medium_username"
-  # quora = "quora_username"
-  # pinterest = "pinterest_username"
-  # dribbble = "dribbble_username"
-  # behance = "behance_username"
-  # jsfiddle = "jsfiddle_username"
-   codepen = "liseen"
-  # zhihu = "zhihu_username"
-  # douban = "douban_username"
-  # bilibili = "bilibili_id_number"
+  # Custom CSS / JS modules that will be imported by the template.
+  # Files are relative to the static/ directory or a URL.
+  # Files are imported in the order they appear here, after
+  # theme.css and theme.js, respectively.
+  css_modules = []
+  js_modules = []
 
-  # Changyan Comments (China Only)
-  changyan = false
-  changyanId = "cyt3toRiB"
-  changyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
+  # Description and meta data for the search engines
+  author = "Liseen"
+  description = "abianji|阿比安吉"
+  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
 
-  # Google Webmaster
-  # https://www.google.com/webmasters/
-  googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+  # How many articles should be displayed at once?
+  paginate = 7
 
-  # Bing Webmaster
-  # https://www.bing.com/toolbox/webmaster/
-  msValidate = "22596E34341DD1D17D6022C44647E587"
+  # Enable / Disable MathJax
+  enable_mathjax    = false
 
-  # Baidu Webmaster (China Only)
-  # https://zhanzhang.baidu.com/
-  # baiduSiteVerification = "MZ23SPxxfa"
+  # Enable / Disable algolia search
+  algolia_search    = false
+  algolia_appId     = "Y2C4RWMPXW"
+  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
+  algolia_indexName = "default-content"
+    # Set this option to false if you want to search within all articles in all languages at once
+    algolia_currentLanguageOnly = true
 
-  # Sogou Webmaster (China Only)
-  # http://zhanzhang.sogou.com/
-  # sogouSiteVerification = "m2jktMQTZm"
+  # Style configuration
+    # set the width of your site's content
+    siteWidth = "800px"
 
-  # 360 Webmaster (China Only)
-  # http://zhanzhang.so.com/
-  # soSiteVerification = "b7ab3b4c2edbc856642004d1b8c27a91"
+    # let hugo automatically resize and crop your images to the correct sizes
+    resizeImages = true
 
-  # Baidu Tongji (China Only)
-  # https://tongji.baidu.com/
-  # baiduTongji = "e21dc1e8a592188271b615159dc88af7"
+  # Header configuration
+    # your subtitle if you want to use any
+    subtitle = "If you can dream you should do it"
 
-  # ICP Number (China Only)
-  # ICP = "xxx"
+    # if you want to use gravatar for the header image
+    gravatarEMail = ""
+
+    # set an path to the image file you want to use | overwrites gravatar
+    customImage = "avatar.jpg"
+
+    # define the icon you want to use for the overlay for the customImage or gravatar.
+    overlayIcon = "fa-home"
+
+    # always display the top navigation (with pages and search) on non-mobile screens
+    permanentTopNav = false
+
+    # show a language chooser in the header
+    showHeaderLanguageChooser = false
+
+  # Content configuration
+    # Enable an optional pinned page to display at the top of the index
+    # pinnedPost = "/content/github/"
+    # Set to true to pin only to the first page, false to all pages
+    # pinOnlyToFirstPage = true
+
+    # enable automatical localization of the article's PublishedDate with momentjs
+    enableMomentJs = true
+
+    # customize the date format | only works if momentjs is disabled | only works with English month names
+    # you can customize it with the options you find here:
+    # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+    dateFormat = "2006-01-02"
+
+    # display the estimated reading time for an article
+    showReadingTime = false
+
+  # Footer configuration
+    showFooter = true
+
+    # How many articles should be displayed at latest posts in the footer?
+    # Set to -1 to hide the 'Latest Posts' column
+    amountLatestPostsInFooter = 7
+
+    # How many categories should be displayed in the footer section?
+    # Set to -1 to hide the 'Categories' column
+    amountCategoriesInFooter = 7
+
+    # show a language chooser in the header
+    showFooterLanguageChooser = false
+
+    # social media profile urls for the footer links
+    showSocialMedia = true
+
+    facebook   = ""
+    twitter    = ""
+    googleplus = ""
+    pinterest  = ""
+    instagram  = "https://www.instagram.com/liusong850315/"
+    tumblr     = ""
+    youtube    = ""
+    vimeo      = ""
+    github     = "https://github.com/liseen315"
+    xing       = ""
+    linkedin   = ""
+
+    # credits line configuration
+    copyrightBy = "by Liseen"
+    copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
+    copyrightYearOverride = "2019"
+    copyrightUrl = "https://github.com/liseen315/bilberry-hugo-theme"
+    creditsText = "Bilberry Hugo Theme"
+    creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
+
+
+# customize your available languages for your multi-langual site
+# or delete the [Languages] blog to use the theme with only one supported language
+[Languages]
+  [Languages.en]
+    weight = 1
+  [Languages.de]
+    weight = 2
+    title = "Mein cooler neuer Blog"
+    subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
+
+# don't change anything below
+[taxonomies]
+  author   = "author"
+  tag      = "tags"
+  category = "categories"
+
+[outputs]
+  home = [ "HTML", "JSON", "RSS" ]
+  page = [ "HTML" ]
+
