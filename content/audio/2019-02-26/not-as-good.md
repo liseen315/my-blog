@@ -12,4 +12,4 @@ soundcloud: ""      # https://soundcloud.com/lightbooks/alchemist-08-new-world-o
 tunein:     ""      # t117894382
 mixcloud:   ""      # scienceforthepeople/445-ai-ant-intelligence
 ---
-我们见识到的世界比任何一代人都大,可是对自我的认知缺如此的浅薄。我们很难找到自己想要做的事情,最后...活成了一副得过且过面无表情的样子。
+我们见识到的世界比任何一代人都大,可是对自我的认知却如此的浅薄。我们很难找到自己想要做的事情,最后...活成了一副得过且过面无表情的样子。
