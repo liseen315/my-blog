@@ -3,7 +3,7 @@ title: "Go Base Env"
 date: 2019-02-26T09:37:58+08:00
 author: "liseen"
 tags: ["golang"]
-categories: ['Code', 'Tutorials']
+categories: ['Code']
 ---
 
 Go 基础环境安装,开发工具,插件配置,以及基础命令使用.

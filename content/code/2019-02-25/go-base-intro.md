@@ -3,7 +3,7 @@ title: "Go Base Intro"
 date: 2019-02-25T14:40:31+08:00
 author: "liseen"
 tags: ["golang"]
-categories: ['Code', 'Tutorials']
+categories: ['Code']
 ---
 
 Go语言是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言
