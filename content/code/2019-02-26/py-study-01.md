@@ -3,19 +3,20 @@ title: "Pipenv:新一代Python项目环境与依赖管理工具"
 date: 2019-02-26T15:49:58+08:00
 author: "liseen"
 tags: ["python"]
-categories: ['Code']
+categories: ["Code"]
 ---
 
-Pipenv是Kenneth Reitz在2017年1月发布的Python依赖管理工具，现在由PyPA维护。你可以把它看做是pip和virtualenv的组合体，而它基于的Pipfile则用来替代旧的依赖记录方式（requirements.txt）
+Pipenv 是 Kenneth Reitz 在 2017 年 1 月发布的 Python 依赖管理工具，现在由 PyPA 维护。你可以把它看做是 pip 和 virtualenv 的组合体，而它基于的 Pipfile 则用来替代旧的依赖记录方式（requirements.txt）
 
 <!--more-->
-很久很久以前,使用virtualenvs安装虚拟环境,后来出Python3.4以后可以使用类似如下命令创建
+
+很久很久以前,使用 virtualenvs 安装虚拟环境,后来出 Python3.4 以后可以使用类似如下命令创建
 
 ```bash
 python3 -m venv xxx
 ```
 
-但是...今天读书发现火箭已经到了火星了,而我在井底..当前只需要用pip去安装一个叫pipenv的包就可以全家桶搞定,类似node的npm
+但是...今天读书发现火箭已经到了火星了,而我在井底..当前只需要用 pip 去安装一个叫 pipenv 的包就可以全家桶搞定,类似 node 的 npm
 
 ```bash
 pip3 install pipenv
@@ -23,7 +24,7 @@ pipenv --version
 pipenv, version 2018.11.26
 ```
 
-然后cd到我们的工作目录下直接运行如下命令
+然后 cd 到我们的工作目录下直接运行如下命令
 
 ```bash
 pipenv install
@@ -80,9 +81,18 @@ Installing dependencies from Pipfile.lock (662286)…
 (helloflask)
 ```
 
+安装 pack 特别慢
+进到项目内查看 Pipfile 更改镜像
+
+```bash
+url = "https://mirrors.aliyun.com/pypi/simple"
+```
+
+lock 特别慢可以先使用参数跳过 lock --skip-lock
+
 自定义虚拟环境文件夹路径
 
-默认情况下，Pipenv会自动为你选择虚拟环境的存储位置，在Windows下通常为C:\Users\Administrator\.virtualenvs\，而Linux或macOS则为~/.local/share/virtualenvs/。如果你想将虚拟环境文件夹在项目目录内创建，可以设置环境变量PIPENV_VENV_IN_PROJECT，这时名为.venv的虚拟环境文件夹将在项目根目录被创建。另外你也可以通过WORKON_HOME环境变量来自定义存储路径。
+默认情况下，Pipenv 会自动为你选择虚拟环境的存储位置，在 Windows 下通常为 C:\Users\Administrator\.virtualenvs\，而 Linux 或 macOS 则为~/.local/share/virtualenvs/。如果你想将虚拟环境文件夹在项目目录内创建，可以设置环境变量 PIPENV_VENV_IN_PROJECT，这时名为.venv 的虚拟环境文件夹将在项目根目录被创建。另外你也可以通过 WORKON_HOME 环境变量来自定义存储路径。
 
 官方文档地址
 
