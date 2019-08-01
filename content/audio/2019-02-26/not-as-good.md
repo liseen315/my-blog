@@ -7,9 +7,10 @@ tags: ['隔壁老樊','活着']
 author: "Liseen"
 
 # Set your audio url for
-spotify:    "spotify:track:4qctsLCG2n7m1lahBBB07m"      # (Spotify URI) spotify:track:43mGIUqxFoDQI4YiqbGmqd
-soundcloud: ""      # https://soundcloud.com/lightbooks/alchemist-08-new-world-order-snip
+spotify:    ""      # (Spotify URI) spotify:track:43mGIUqxFoDQI4YiqbGmqd
+soundcloud: "https://soundcloud.com/ax-xin/wrh1ay4eige1"      # https://soundcloud.com/lightbooks/alchemist-08-new-world-order-snip
 tunein:     ""      # t117894382
 mixcloud:   ""      # scienceforthepeople/445-ai-ant-intelligence
+net163: ""
 ---
 我们见识到的世界比任何一代人都大,可是对自我的认知却如此的浅薄。我们很难找到自己想要做的事情,最后...活成了一副得过且过面无表情的样子。
