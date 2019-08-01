@@ -1,6 +1,13 @@
 # my-blog
 
-This repository will contain Hugo’s content and other source files
+基于hugo 的个人blog
+
+# 使用
+
+```bash
+cd themes
+git clone git@github.com:liseen315/bilberry-hugo-theme.git
+```
 
 # 预览
 
