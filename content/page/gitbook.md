@@ -1,7 +1,7 @@
 ---
 title: "Gitbook"
 date: 2019-08-02T17:58:12+08:00
-draft: true
+draft: false
 excludeFromTopNav: false
 
 # set the link if you want to redirect the user.
