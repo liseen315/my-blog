@@ -19,9 +19,7 @@ hugo server -D
 # 编辑脚本
 
 ```bash
-bash new.sh name contentType
-
-contentType: [article,audio,code,gallery,link,page,quote,video] // 默认是article
+bash new.sh name
 ```
 
 # 发布

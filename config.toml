@@ -1,151 +1,82 @@
-title = "阿比安吉"
-# Add an trailing slash to ensure that all fonts render correctly.
 baseURL = "https://abianji.com/"
-theme = "bilberry-hugo-theme"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "ABIANJI"
+theme = "hermit"
+# enableGitInfo = true
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
+rssLimit = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+# googleAnalytics = "UA-123-45"
+# disqusShortname = "yourdiscussshortname"
 
-enableRobotsTXT = true
+[author]
+  name = "Liseen"
 
-# Change to one of your content languages definded at the end.
-DefaultContentLanguage = "en"
-
-# Enable / Disable Google Analytics statistics for your site
-googleAnalytics = "UA-123564234-1"
-
-# Enable / Disable comments on the articles via Disqus.
-disqusShortname = ""
-
-# Enable / Disable open link with a new tab.
 [blackfriday]
-  hrefTargetBlank = false
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[taxonomies]
+  tag = "tags"
+  # Categories are disabled by default.
 
 [params]
-  # Favicon for the browser's favorites and tabs
-  favicon = "favicon.ico" # set a favicon icon
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-  # Custom CSS / JS modules that will be imported by the template.
-  # Files are relative to the static/ directory or a URL.
-  # Files are imported in the order they appear here, after
-  # theme.css and theme.js, respectively.
-  css_modules = []
-  js_modules = []
+  # Metadata mostly used in document's head
+  # description = ""
+  # images = [""]
+  themeColor = "#494f5c"
 
-  # Description and meta data for the search engines
-  author = "Liseen"
-  description = "abianji|阿比安吉"
-  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  homeSubtitle = "write code and record life"
+  footerCopyright = ' &#183; <a href="https://beian.miit.gov.cn" target="_blank">京ICP备19058619号</a>'
+  # bgImg = ""  # Homepage background-image URL
 
-  # How many articles should be displayed at once?
-  paginate = 7
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = "https://github.com/username/repository/commit/"
 
-  # Enable / Disable MathJax
-  enable_mathjax    = false
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
 
-  # Enable / Disable algolia search
-  algolia_search    = false
-  algolia_appId     = "Y2C4RWMPXW"
-  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
-  algolia_indexName = "default-content"
-    # Set this option to false if you want to search within all articles in all languages at once
-    algolia_currentLanguageOnly = true
+  relatedPosts = false  # Add a related content section to all single posts page
 
-  # Style configuration
-    # set the width of your site's content
-    siteWidth = "800px"
+  code_copy_button = true # Turn on/off the code-copy-button for code-fields
+  
+  # Add custom css
+  # customCSS = ["css/foo.css", "css/bar.css"]
 
-    # let hugo automatically resize and crop your images to the correct sizes
-    resizeImages = true
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/liseen315"
+    
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/AbianjiLiu"
 
-  # Header configuration
-    # your subtitle if you want to use any
-    subtitle = "Have a dream and do it"
+  [[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/"
 
-    # if you want to use gravatar for the header image
-    gravatarEMail = ""
+  
 
-    # set an path to the image file you want to use | overwrites gravatar
-    customImage = "avatar.jpg"
+[menu]
 
-    # define the icon you want to use for the overlay for the customImage or gravatar.
-    overlayIcon = "fa-home"
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
 
-    # always display the top navigation (with pages and search) on non-mobile screens
-    permanentTopNav = false
-
-    # show a language chooser in the header
-    showHeaderLanguageChooser = false
-
-  # Content configuration
-    # Enable an optional pinned page to display at the top of the index
-    # pinnedPost = "/content/github/"
-    # Set to true to pin only to the first page, false to all pages
-    # pinOnlyToFirstPage = true
-
-    # enable automatical localization of the article's PublishedDate with momentjs
-    enableMomentJs = true
-
-    # customize the date format | only works if momentjs is disabled | only works with English month names
-    # you can customize it with the options you find here:
-    # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
-    dateFormat = "2006-01-02"
-
-    # display the estimated reading time for an article
-    showReadingTime = false
-
-  # Footer configuration
-    showFooter = true
-
-    # How many articles should be displayed at latest posts in the footer?
-    # Set to -1 to hide the 'Latest Posts' column
-    amountLatestPostsInFooter = 7
-
-    # How many categories should be displayed in the footer section?
-    # Set to -1 to hide the 'Categories' column
-    amountCategoriesInFooter = 7
-
-    # show a language chooser in the header
-    showFooterLanguageChooser = false
-
-    # social media profile urls for the footer links
-    showSocialMedia = true
-
-    facebook   = ""
-    twitter    = ""
-    googleplus = ""
-    pinterest  = ""
-    instagram  = "https://www.instagram.com/liusong850315/"
-    tumblr     = ""
-    youtube    = ""
-    vimeo      = ""
-    github     = "https://github.com/liseen315"
-    xing       = ""
-    linkedin   = ""
-
-    # credits line configuration
-    copyrightBy = "by Liseen"
-    copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
-    copyrightYearOverride = "2019"
-    copyrightUrl = "https://github.com/liseen315/bilberry-hugo-theme"
-    creditsText = "Bilberry Hugo Theme"
-    creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
-
-
-# customize your available languages for your multi-langual site
-# or delete the [Languages] blog to use the theme with only one supported language
-[Languages]
-  [Languages.en]
-    weight = 1
-  # [Languages.de]
-  #   weight = 2
-  #   title = "Mein cooler neuer Blog"
-  #   subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
-
-# don't change anything below
-[taxonomies]
-  author   = "author"
-  tag      = "tags"
-  category = "categories"
-
-[outputs]
-  home = [ "HTML", "JSON", "RSS" ]
-  page = [ "HTML" ]
-
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
