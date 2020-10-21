@@ -26,7 +26,10 @@ tags:
 ***
 
 ```js
-// 暴力破解法
+/**
+ 暴力循环
+ 1. 以nums当前索引i为起点依次向后挨个相加进行与target匹配
+*/
 const twoSum = (nums, target) => {
     for(let i = 0;i< nums.length;i++) {
         for(let j = i+1;j<nums.length;j++) {
@@ -41,7 +44,11 @@ const twoSum = (nums, target) => {
 ***
 
 ```javascript
-// Hash法
+/**
+ Hash存储法
+ 1. 如果目标值与当前循环值之差存在于Hash中则返回Hash的值
+ 2. 否则将当前值为键，索引为值存到Hash.
+*/
 const twoSum = (nums, target) => {
   const prevNums = {}; // map存储出现过的数字,以数字为键索引为值           
 
