@@ -1,5 +1,5 @@
 ---
-title: "Leetcode Study 左旋转字符串"
+title: "Leetcode学习 左旋转字符串"
 date: 2020-10-26T15:17:16+08:00
 draft: false
 toc: false
